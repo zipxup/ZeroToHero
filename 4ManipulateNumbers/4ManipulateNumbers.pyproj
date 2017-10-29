@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>98bb82f9-6a2a-4868-a72d-834bdd288281</ProjectGuid>
+    <ProjectGuid>b9b178a6-1302-48b0-804c-8bf5f00c127f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HelloWorld.py</StartupFile>
+    <StartupFile>LoanCaculator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>HelloWorld</Name>
-    <RootNamespace>HelloWorld</RootNamespace>
+    <Name>4ManipulateNumbers</Name>
+    <RootNamespace>4ManipulateNumbers</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="HelloWorld.py" />
+    <Compile Include="AskUserForInput.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LoanCaculator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="_4ManipulateNumbers.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
